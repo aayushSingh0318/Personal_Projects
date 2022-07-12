@@ -1,0 +1,23 @@
+sort1 uses: Bubble Sort
+
+How do you know?: First I found out that sort2 is merge sort so now i must differentiate between selection and bubble sort. For Omega notation (best case scenario)
+i know that Bubble sort will operate faster than selection.
+
+Sorted50000:
+sort1: 0.561s ==> winner is Bubble sort!!
+sort3: 3.064s
+
+sort2 uses: Merge Sort
+
+How do you know?: First i wanted to differentiate merge sort from the other two sorting methods. The Big O(n) notation for both selection and bubble are both O(n^2) while
+for Merge sort it is O(nlogn.) By testing the worst case scenario (largest reversed data set) the quickest sort of the three will be Merge sort.
+
+Reversed5000:
+sort1: 5.71s
+sort2: 0.662s ==> winner is Merge sort!!
+sort3: 3.205s
+
+sort3 uses: Selection Sort
+
+How do you know?: When testing which non merge sort, sorting method runs the quickest for a sorted set, sort 3 took longer than sort 1 and was determined to be selection sort. 
+
